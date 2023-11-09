@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #3f72cc;
+}
+
+div.col-lg-3 {
+    height: 590px;
+    margin: 10px auto;
+}
+
+.card {
+    height: 100%
+}
+
+.card a {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    z-index: 5;
+}
+
+.card:hover a {
+    background-color: #3f72cc;
+    color: white
+}
+
+p {
+    font-size: 0.8rem
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout {
+    min-width: 250px;
+    min-height: 100px;
+    background-color: #fff7e9;
+    border-radius: 5px;
+    order: 1;
+    position: relative;
+    padding: 15px;
+    display: none
+}
+
+#items {
+    height: fit-content;
+    width: 100%
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.checkout>button {
+    margin: 10px 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    order: 2
+}
