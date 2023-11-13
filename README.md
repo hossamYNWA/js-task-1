@@ -5,7 +5,7 @@
 ### by clicking the calculate button, the total value of the selected items will appear
 ### it's low level functionality but it was just the required criteria 
 
-## you can check the webpage [here](https://hossamynwa.github.io/js-task-1/))
+## to check the webpage click [here](https://hossamynwa.github.io/js-task-1/)
 
 
 
